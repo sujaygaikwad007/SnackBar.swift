@@ -36,6 +36,8 @@ open class SnackBar: UIView, SnackBarAction, SnackBarPresentable {
 		messageLabel.textColor = style.textColor
 		messageLabel.adjustsFontSizeToFitWidth = true
 		messageLabel.minimumScaleFactor = 0.8
+        messageLabel.textAlignment = style.textAlignment 
+        
 		return messageLabel
 	}()
 	

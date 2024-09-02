@@ -17,6 +17,7 @@ public struct SnackBarStyle {
 	public var textColor: UIColor = .black
     public var font: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 14))
 	var maxNumberOfLines: UInt = 2
+    public var textAlignment: NSTextAlignment = .left 
 	// Action
 	public var actionTextColorAlpha: CGFloat = 0.5
 	public var actionFont: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 17))
